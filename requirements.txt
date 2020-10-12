@@ -1,15 +1,5 @@
-numpy==1.17.5
-scipy
-opencv-python
-opencv-contrib-python
-tensorflow-gpu
-keras_applications
-tensorflow-model-optimization
-matplotlib
-tqdm
-pillow
+# For colab needs
 mnn
-Cython
 pycocotools
 keras2onnx
 tf2onnx

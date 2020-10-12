@@ -96,10 +96,11 @@ os.makedirs(args.output_path, exist_ok=True)
 
 
 # get specific sets to convert
-if args.year is not None:
-    sets = [item for item in sets if item[0] == args.year]
-if args.set is not None:
-    sets = [item for item in sets if item[1] == args.set]
+# Commented for custom datasets
+# if args.year is not None:
+#     sets = [item for item in sets if item[0] == args.year]
+# if args.set is not None:
+#     sets = [item for item in sets if item[1] == args.set]
 
 for year, image_set in sets:
     # count class item number in each set
